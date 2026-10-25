@@ -1,0 +1,8 @@
+{
+  // VS Code's Python extension automatically finds the .venv folder created by
+  // setup.sh / setup.bat. If it doesn't: Ctrl+Shift+P -> "Python: Select Interpreter".
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}

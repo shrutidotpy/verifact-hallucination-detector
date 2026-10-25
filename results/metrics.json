@@ -1,0 +1,24 @@
+{
+  "single_features": {
+    "evidence_entail": 0.6503472222222222,
+    "evidence_contradict": 0.5570138888888889,
+    "mean_logprob": 0.7381249999999999,
+    "min_logprob": 0.6177777777777778,
+    "diagnostic_n_words": 0.9562847222222223,
+    "diagnostic_n_words_statement": 0.7001388888888889
+  },
+  "combined": {
+    "accuracy": 0.6958333333333333,
+    "precision": 0.7238095238095238,
+    "recall": 0.6333333333333333,
+    "f1": 0.6755555555555556,
+    "auroc": 0.7790277777777778
+  },
+  "combined_with_evidence_rule": {
+    "accuracy": 0.6791666666666667,
+    "precision": 0.7128712871287128,
+    "recall": 0.6,
+    "f1": 0.6515837104072398,
+    "auroc": 0.7585416666666667
+  }
+}

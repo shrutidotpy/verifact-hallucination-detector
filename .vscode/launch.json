@@ -1,0 +1,85 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Run web app (Step 8)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "app.py"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 7 - Train & evaluate (200 items)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/train_and_evaluate.py",
+      "args": [
+        "--n-items",
+        "200"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 1 - Claim extraction",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step1_claims",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 2 - Evidence retrieval",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step2_retrieval",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 3 - NLI verification",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step3_nli",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 4 - Self-consistency",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step4_consistency",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 5 - Model confidence",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step5_confidence",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Step 6 - Combine signals",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.step6_combine",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Full pipeline (Steps 1-6)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "halludetect.detector",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
